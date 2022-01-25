@@ -1,0 +1,116 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+}body{
+background-color: #e9ecef;
+
+}.navbar{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-around;
+    height: 44px;
+    align-items: center;
+}.navbar i{
+    font-size: 1.5rem;
+    color: #adb5bd;
+}.navbar i:nth-child(2){
+    color: crimson;
+}.navbar i:nth-child(3){
+    color: darkgoldenrod;
+}.photo{
+    height: calc(100vh - 44px);
+    background-color: crimson;
+   width: 98vw;
+   height: 85vh;
+  background: url('./tinder.jpg')center center/cover;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}.photo-dados p {
+   font-size: 1.7rem;
+   font-weight: bold;
+   color: white;
+   padding: 5px;
+}.photo-dados{
+    display: flex;
+    margin-left: 15px;
+}.photo-dados p:nth-child(2){
+    font-weight: 100;
+}.footer-icons{
+   width: 100%;
+    flex: auto;
+    bottom: 0;
+    display: flex;
+   justify-content: space-around;
+    padding: 0; 
+    
+}.icon1 i{
+ margin-top: 8px;
+ font-size: 1.2rem;
+ color: #fcbf49;
+ cursor: pointer;
+ padding: 10px;
+ border-radius: 50px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 15px;
+}.icon2 i{
+    margin-top: 8px;
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}.icon3 i{
+   margin-top: 8px;
+   
+    font-size: 1.2rem;
+    color:#0081a7;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}.icon4 i{
+  margin-top: 8px ;
+    font-size: 1.2rem;
+    color: green;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+ 
+@media (min-width:  1025px){
+    .photo{
+        width: 367px;
+        height: 684px;
+        margin: auto;
+    }.navbar{
+        width: 400px;
+        margin: auto;
+    }.footer-icons{
+        width: 400px;
+        margin: auto;
+
+    }.icon1{
+        height: 10px;
+        width: 10px;
+    }
+}
